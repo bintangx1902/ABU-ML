@@ -4,7 +4,10 @@ import threading
 import cv2
 import numpy as np
 import tensorflow as tf
-from tensorflow.lite.python.interpreter import Interpreter
+# from tensorflow.lite.python.interpreter import Interpreter
+from tflite_runtime.interpreter import Interpreter
+from tflite_runtime.interpreter import load_delegate
+
 
 tf.random.set_seed(1234)
 
