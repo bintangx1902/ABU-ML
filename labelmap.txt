@@ -1,6 +1,4 @@
 paddy
 paddy_rice
 emp_grain
-paddy
-paddy_rice
-emp_grain
+silo
